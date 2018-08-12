@@ -52,7 +52,6 @@ namespace ZipEngine
                             Path.GetFileNameWithoutExtension(inputFile) + ".zip"));
                     }
                 }
-                return;
             }
         }
 
