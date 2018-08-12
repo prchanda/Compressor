@@ -7,6 +7,8 @@ Please follow the below steps to setup the cloud service solution:
 
 1.	Install Git client for windows. You can download the setup file from here : https://git-scm.com/download/win. Git Clone the cloud service solution using **git clone https://github.com/prchanda/compressor.git**.
 
+**Note:** - Downloading this repository as a ZIP will not work, as it contains LFS objects which are not automatically added in ZIP downloads due to the way they are generated. So please make sure to git clone this repository, to avoid missing any LFS objects.
+
 2.	Create a classic storage account from Azure Portal. Refer [this](https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account#create-a-storage-account) article for guidance.
 
 3.  Open up the solution in Visual Studio and [configure the solution to use your Azure storage account when it runs in Azure](https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-dotnet-get-started#configure-the-solution-to-use-your-azure-storage-account-when-it-runs-in-azure).
