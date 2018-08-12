@@ -5,7 +5,7 @@ As the project name goes, the main functionality of this application is to compr
 
 Please follow the below steps to setup the cloud service solution:
 
-1.	Install Git client for windows. You can download the setup file from here : https://git-scm.com/download/win. Git Clone the cloud service solution using **git clone https://github.com/prchanda/compressor.git**.
+1.	Install Git client for windows. You can download the setup file from here : https://git-scm.com/download/win. Git glone the cloud service solution using the command : **git clone https://github.com/prchanda/compressor.git**.
 
     **Note:** *This repository contains LFS objects and it's not currently possible to include them in ZIP downloads due to the way they                are generated. Please make sure to clone this git repository so that LFS objects are included in the download files.*
 
