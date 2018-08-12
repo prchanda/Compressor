@@ -10,7 +10,6 @@
     </Sites>
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
-      <Setting name="StorageConnectionString" />
     </ConfigurationSettings>
     <Endpoints>
       <InputEndpoint name="Endpoint1" protocol="http" port="80" />
@@ -22,7 +21,6 @@
   <WorkerRole name="ZipEngine" vmsize="Standard_D1_v2">
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
-      <Setting name="StorageConnectionString" />
     </ConfigurationSettings>
     <Imports>
       <Import moduleName="RemoteAccess" />

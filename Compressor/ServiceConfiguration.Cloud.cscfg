@@ -4,7 +4,6 @@
     <Instances count="3" />
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=pratyay;AccountKey=$(_pratyay.key_)" />
-      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=pratyay;AccountKey=sVTkZp3YWxgAG9AxUltsym0KgrPp+Y3xmQT8BsVOUNn2mkJg9fJwC7dpnGQSzDR19IZ3Twz3UoOsWa6bWvIrXQ==" />
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="Pratyay" />
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBpQYJKoZIhvcNAQcDoIIBljCCAZICAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCED14j2zCad2RT3AHJ0HlAvYwDQYJKoZIhvcNAQEBBQAEggEAhbGyoKWcQ7EZdENqIEGiMJ+ovOvzjWspXIf7gqVqIvj2m4u/+gyPG4f+ZQukgkn4ErKTBEYRi89MkRfVFHkvMJlNaUg0mUXuyOhYI34pSWL2de+jt6xHib+kakm5j9fhmC8cDu65RMDwDKUeU/5dBYPp7pHGhnxmkRJ0Ho0++kfUfxRtD8vuSSFEtsmmysxTZOm2+OEuiO/x15KonY75W3iCkPTLIzw2+OjjD4Xxv+ggNwQQEFl+OONGFv7C4R4i//3s3snnlKEZvBEFlP+PQKFOMeYHinCrpCzql2Paohiey0unhGdzvse0SJCibBrvYcO0W+IX2IAPKy2CtarTIzA7BgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECAVSsLZqdFxmgBiQ3OPFS+sH2nVL3IqiLsAjYZh9v48bWQI=" />
@@ -18,7 +17,6 @@
     <Instances count="1" />
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=pratyay;AccountKey=$(_pratyay.key_)" />
-      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=pratyay;AccountKey=sVTkZp3YWxgAG9AxUltsym0KgrPp+Y3xmQT8BsVOUNn2mkJg9fJwC7dpnGQSzDR19IZ3Twz3UoOsWa6bWvIrXQ==" />
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="Pratyay" />
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBpQYJKoZIhvcNAQcDoIIBljCCAZICAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCED14j2zCad2RT3AHJ0HlAvYwDQYJKoZIhvcNAQEBBQAEggEAhbGyoKWcQ7EZdENqIEGiMJ+ovOvzjWspXIf7gqVqIvj2m4u/+gyPG4f+ZQukgkn4ErKTBEYRi89MkRfVFHkvMJlNaUg0mUXuyOhYI34pSWL2de+jt6xHib+kakm5j9fhmC8cDu65RMDwDKUeU/5dBYPp7pHGhnxmkRJ0Ho0++kfUfxRtD8vuSSFEtsmmysxTZOm2+OEuiO/x15KonY75W3iCkPTLIzw2+OjjD4Xxv+ggNwQQEFl+OONGFv7C4R4i//3s3snnlKEZvBEFlP+PQKFOMeYHinCrpCzql2Paohiey0unhGdzvse0SJCibBrvYcO0W+IX2IAPKy2CtarTIzA7BgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECAVSsLZqdFxmgBiQ3OPFS+sH2nVL3IqiLsAjYZh9v48bWQI=" />
