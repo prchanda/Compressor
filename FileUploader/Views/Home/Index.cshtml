@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div>
+    <h1>Super Convertor</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <p>
+            Super Convertor is a sample application that demonstrates how to compress a file using
+            <i><b>DotNetZip Library</b></i>. DotNetZip is a FAST, FREE class library and toolset for manipulating zip files.
+            Use VB, C# or any .NET language to easily create, extract, or update zip files.
+        </p>
+        <p>This particular sample application accepts an input file, which gets uploaded in a blob container, following which it compresses the file and uploads the zipped file in a different blob container. </p>
+        <p>Refer this <a href="https://archive.codeplex.com/?p=dotnetzip">link</a> for more information. To get started upload a file to be compressed</p><br/><br/>
+
+        @using (Html.BeginForm("Index", "Home", FormMethod.Post, new {enctype = "multipart/form-data"}))
+        {
+            <div style="margin-top: 10px">
+                @Html.TextBox("file", "", new {type = "file"}) <br/>
+                <input type="submit" value="Upload"/>
+                @if (ViewBag.Message == "File Uploaded Successfully!!")
+                {
+                    <label style="color: green">
+                        <b>@ViewBag.Message</b>
+                    </label>
+                }
+                else
+                {
+                    <label style="color: red">
+                        <b>@ViewBag.Message</b>
+                    </label>
+                }
+            </div>
+        }
+    </div>
+</div>
