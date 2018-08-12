@@ -11,7 +11,7 @@ Please follow the below steps to setup the cloud service solution:
 
 2.	Create a classic storage account from Azure Portal. Refer [this](https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account#create-a-storage-account) article for guidance.
 
-3.  Open up the solution in Visual Studio and [configure the solution to use your Azure storage account when it runs in Azure](https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-dotnet-get-started#configure-the-solution-to-use-your-azure-storage-account-when-it-runs-in-azure).
+3.  Open up the solution in Visual Studio and [configure the solution to use your Azure storage account when it runs in Azure](https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-dotnet-get-started#configure-the-solution-to-use-your-azure-storage-account-when-it-runs-in-azure) for *FileUploader* and *ZipEngine* role. To keep things simple set the storage account connection string setting name as **StorageConnectionString**, otherwise to update the references of the storage connection string in code.
 
 4. *(Optional)* If you want to change the input/output blob container names, then please modify the below lines of code:
 
