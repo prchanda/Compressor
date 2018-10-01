@@ -4,12 +4,14 @@
     <Instances count="3" />
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="" />
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=StorageAccountName;AccountKey=StorageAccountKey" />
     </ConfigurationSettings>
   </Role>
   <Role name="ZipEngine">
     <Instances count="1" />
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="" />
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=StorageAccountName;AccountKey=StorageAccountKey" />
     </ConfigurationSettings>
   </Role>
   <Role name="AssemblyBinder">
